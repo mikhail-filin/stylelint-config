@@ -1,0 +1,17 @@
+{
+  "name": "@mfilin/stylelint-config",
+  "version": "0.0.1",
+  "description": "Extendable stylelint configuration",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gortyser/stylelint-config.git"
+  },
+  "keywords": [
+    "stylelint",
+    "stylelint-config"
+  ],
+  "author": "Mikhail Filin <mikhailf.codes@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/Gortyser/stylelint-config#readme"
+}
