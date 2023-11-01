@@ -14,6 +14,6 @@ In package.json:
 
 ```json
 "stylelint": {
-  "extends": "./index.js"
+  "extends": "@mfilin/stylelint-config"
 }
 ```
