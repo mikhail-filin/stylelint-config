@@ -1,33 +1,33 @@
 {
-  "name": "@mfilin/stylelint-config",
-  "version": "0.0.3",
-  "description": "Extendable stylelint configuration",
-  "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Gortyser/stylelint-config.git"
-  },
-  "keywords": [
-    "stylelint",
-    "stylelint-config"
-  ],
-  "author": "Mikhail Filin <mikhailf.codes@gmail.com>",
-  "license": "MIT",
-  "homepage": "https://github.com/Gortyser/stylelint-config#readme",
-  "scripts": {
-    "lint": "stylelint \"**/*.css\"",
-    "prettier:fix": "prettier . --write",
-    "prettier:check": "prettier . --check"
-  },
-  "devDependencies": {
-    "@mfilin/prettier-config": "1.1.0",
-    "prettier": "3.0.3",
-    "stylelint": "15.11.0",
-    "stylelint-config-standard": "34.0.0",
-    "stylelint-order": "6.0.3"
-  },
-  "stylelint": {
-    "extends": "./index.js"
-  },
-  "prettier": "@mfilin/prettier-config"
+	"name": "@mfilin/stylelint-config",
+	"version": "0.0.3",
+	"description": "Extendable stylelint configuration",
+	"main": "index.js",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Gortyser/stylelint-config.git"
+	},
+	"keywords": [
+		"stylelint",
+		"stylelint-config"
+	],
+	"author": "Mikhail Filin <mikhailf.codes@gmail.com>",
+	"license": "MIT",
+	"homepage": "https://github.com/Gortyser/stylelint-config#readme",
+	"scripts": {
+		"lint": "stylelint \"**/*.css\"",
+		"prettier:fix": "prettier . --write",
+		"prettier:check": "prettier . --check"
+	},
+	"devDependencies": {
+		"@mfilin/prettier-config": "1.1.0",
+		"prettier": "3.0.3",
+		"stylelint": "15.11.0",
+		"stylelint-config-standard": "34.0.0",
+		"stylelint-order": "6.0.3"
+	},
+	"stylelint": {
+		"extends": "./index.js"
+	},
+	"prettier": "@mfilin/prettier-config"
 }

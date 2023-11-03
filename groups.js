@@ -1,6 +1,6 @@
 const groups = [
 	{
-		properties: ['all']
+		properties: ['all'],
 	},
 	{
 		groupName: 'position',
@@ -16,9 +16,9 @@ const groups = [
 			'inset-block-end',
 			'inset-inline',
 			'inset-inline-start',
-			'inset-inline-end'
+			'inset-inline-end',
 		],
-	}
-]
+	},
+];
 
 module.exports = groups;
