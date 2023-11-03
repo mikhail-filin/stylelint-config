@@ -1,6 +1,14 @@
+const propertyGroups = require('./groups');
+
 module.exports = {
   "extends": "stylelint-config-standard",
+  "plugins": ["stylelint-order"],
   "rules": {
-    "color-no-invalid-hex": true
+    "order/properties-order": [
+      propertyGroups,
+      {
+        unspecified: 'bottomAlphabetical'
+      }
+    ]
   }
 }
