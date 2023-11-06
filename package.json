@@ -1,6 +1,6 @@
 {
 	"name": "@mfilin/stylelint-config",
-	"version": "0.0.3",
+	"version": "1.0.0",
 	"description": "Extendable stylelint configuration",
 	"main": "index.js",
 	"repository": {
