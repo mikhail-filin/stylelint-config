@@ -97,6 +97,31 @@ const groups = [
 			'overflow-y',
 		],
 	},
+	{
+		groupName: 'Decoration',
+		properties: ['background', 'border'],
+	},
+	{
+		groupName: 'Typography',
+		properties: [
+			'font',
+			'font-family',
+			'font-size',
+			'font-weight',
+			'font-style',
+			'color',
+			'line-height',
+			'letter-spacing',
+			'text-align',
+			'text-decoration',
+			'text-transform',
+			'text-overflow',
+			'list-style',
+			'list-style-position',
+			'list-style-type',
+			'list-style-image',
+		],
+	},
 ];
 
 module.exports = groups;
