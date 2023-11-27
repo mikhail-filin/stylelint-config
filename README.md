@@ -1,4 +1,4 @@
-![npm publish status](https://github.com/Gortyser/stylelint-config/actions/workflows/npm-publish.yml/badge.svg)
+![npm publish status](https://github.com/mikhail-filin/stylelint-config/actions/workflows/npm-publish.yml/badge.svg)
 
 # @mfilin/stylelint-config
 
