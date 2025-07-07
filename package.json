@@ -1,6 +1,6 @@
 {
 	"name": "@mfilin/stylelint-config",
-	"version": "1.0.0",
+	"version": "1.1.0",
 	"description": "Extendable stylelint configuration",
 	"main": "index.js",
 	"repository": {
@@ -19,12 +19,17 @@
 		"prettier:fix": "prettier . --write",
 		"prettier:check": "prettier . --check"
 	},
+	"dependencies": {
+		"stylelint-config-standard": "38.0.0",
+		"stylelint-order": "7.0.0"
+	},
 	"devDependencies": {
 		"@mfilin/prettier-config": "1.1.0",
-		"prettier": "3.0.3",
-		"stylelint": "15.11.0",
-		"stylelint-config-standard": "34.0.0",
-		"stylelint-order": "6.0.3"
+		"prettier": "3.6.2",
+		"stylelint": "16.21.1"
+	},
+	"peerDependencies": {
+		"stylelint": "16.21.1"
 	},
 	"stylelint": {
 		"extends": "./index.js"
